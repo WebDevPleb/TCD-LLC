@@ -1,0 +1,1731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Bitcoin Mining Museum</title>
+  <!-- favicon icon -->
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7MSYSYYVMJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7MSYSYYVMJ');
+</script>
+<!-- Open Graph / Facebook -->
+<meta property="og:title" content="Bitcoin Mining Museum">
+<meta property="og:description" content="Discover the evolution of SHA256 Bitcoin mining">
+<meta property="og:image" content="https://bitcoinminingmuseum.com/img/p-logo.png">
+<meta name="og:url" content="https://bitcoinminingmuseum.com/">
+<meta name="og:site_name" content="Bitcoin Mining Museum">
+<meta name="og:type" content="website">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://www.bitcoinminingmuseum.com/">
+<meta property="twitter:title" content="Bitcoin Mining Museum">
+<meta property="twitter:description" content="Discover the evolution of SHA256 Bitcoin mining">
+<meta property="twitter:image" content="https://bitcoinminingmuseum.com/img/p-logo.png">
+<meta name="twitter:site" content="@TheCoinDad">
+<meta name="twitter:creator" content="@TheCoinDad">
+<!-- Search Engine -->
+<meta name="description" content="Discover the evolution of SHA256 mining">
+<meta name="image" content="https://bitcoinminingmuseum.com/img/logo-full.png">
+<!-- Schema.org for Google -->
+<meta itemprop="name" content="Bitcoin Mining Museum">
+<meta itemprop="description" content="Discover the evolution of SHA256 mining">
+<meta itemprop="image" content="https://bitcoinminingmuseum.com/img/p-logo.png">
+</head>
+
+<body>
+  <!-- Start your project here-->
+  <header>
+    <!-- Intro settings -->
+    <style>
+      /* Default height for small devices */
+      #intro-example {
+        height: 400px;
+      }
+
+      /* Height for devices larger than 992px */
+      @media (min-width: 992px) {
+        #intro-example {
+          height: 600px;
+        }
+      }
+    </style>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"
+      style="font-family: 'Bebas Neue', 'Roboto', sans-serif;font-size: 22px; letter-spacing: 2px;">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" data-mdb-toggle="animation" data-mdb-animation-start="onHover"
+          data-mdb-animation-reset="true" data-mdb-animation="tada" style="font-size: 22px;"><span
+            style="color: #f7931b;">Bitcoin&nbsp;</span> Mining Museum</a>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="advisors.html">Advisors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #faa244;" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#fun-facts">Fun Facts</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="donations.html">donate</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="https://t.me/thecoindad">Contact</a>
+            </li>
+            <!-- Icons -->
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://t.me/thecoindad">
+                <i class="fab fa-telegram"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://twitter.com/TheCoinDad">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Navbar -->
+  <main>
+    <!-- Background image -->
+    <div id="intro-example" class="p-5 text-center bg-image ripple"
+      style="background-image: url('./img/work-station-c.jpg');">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white" data-mdb-toggle="animation" data-mdb-animation="zoom-in"
+            data-mdb-animation-start="onLoad">
+            <h1 class="mb-3 text-uppercase display-2" style="font-family: 'Bebas Neue', 'Roboto', sans-serif;">The
+              Evolution Of SHA256</h1>
+            <h3 class="mb-4 px-2" style="font-family: 'Bebas Neue','Roboto', sans-serif;letter-spacing: 1px;">All miners
+              are owned by <a style="color:#f7931b;" href="https://twitter.com/TheCoinDad">@TheCoinDad</a> & all photos
+              are from the actual collection</h3>
+            <a class="btn" data-mdb-toggle="animation" data-mdb-animation-reset="true" data-mdb-animation="tada"
+              data-mdb-smooth-scroll="smooth-scroll" data-mdb-offset="30" href="#gallery" role="button" rel="nofollow"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif; letter-spacing: 2px; font-size: 22px;background-color: #f7931b; color: white;">Let's
+              get started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Gallery-->
+    <div id="gallery">
+      <div class="container-fluid bg-dark pb-5">
+        <div class="row text-center p-5">
+          <!--brands-->
+          <div class="text-center">
+            <div class="dropdown">
+              <a type="button" class="btn btn-lg col mt-1 m-1" style="background-color: #f7931b; color:white;"
+                data-mdb-toggle="animation" data-mdb-animation-reset="true" data-mdb-animation="tada" href="#bitmain"
+                data-mdb-smooth-scroll="smooth-scroll" data-mdb-offset="30">Bitmain</button></a>
+              <a type="button" class="btn btn-lg col mt-1 m-1" style="background-color: #f7931b; color:white;"
+                data-mdb-toggle="animation" data-mdb-animation-reset="true" data-mdb-animation="tada" href="#microbt"
+                data-mdb-smooth-scroll="smooth-scroll" data-mdb-offset="30">MicroBT</button></a>
+              <a type="button" class="btn btn-lg col mt-1 m-1" style="background-color: #f7931b; color:white;"
+                data-mdb-toggle="animation" data-mdb-animation-reset="true" data-mdb-animation="tada" href="#avalon"
+                data-mdb-smooth-scroll="smooth-scroll" data-mdb-offset="30">Avalon</button></a>
+
+              <button class="btn btn-lg col mt-1 dropdown-toggle m-1" type="button" id="dropdownMenuButton"
+                data-mdb-toggle="dropdown" aria-expanded="false" style="background-color: #f7931b; color:white;">
+                Defunct Manufacturers
+              </button>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#gridseed" data-mdb-smooth-scroll="smooth-scroll"
+                    data-mdb-offset="30">Gridseed</a></li>
+                <li><a class="dropdown-item" href="#spondoolies" data-mdb-smooth-scroll="smooth-scroll"
+                    data-mdb-offset="30">Spondoolies-Tech</a></li>
+                <li><a class="dropdown-item" href="#butteryflylabs" data-mdb-smooth-scroll="smooth-scroll"
+                    data-mdb-offset="30">Butterfly Labs</a></li>
+                <li><a class="dropdown-item" href="#dragonmint" data-mdb-smooth-scroll="smooth-scroll"
+                    data-mdb-offset="30">Dragonmint</a></li>
+                <li><a class="dropdown-item" href="#rockminer" data-mdb-smooth-scroll="smooth-scroll"
+                    data-mdb-offset="30">RockMiner</a></li>
+                <li><a class="dropdown-item" href="#zeus" data-mdb-smooth-scroll="smooth-scroll"
+                    data-mdb-offset="30">Zeus</a></li>
+                <li><a class="dropdown-item" href="#bitgretiefter" data-mdb-smooth-scroll="smooth-scroll"
+                    data-mdb-offset="30">Bitgretiefter</a></li>
+                <li><a class="dropdown-item" href="#bitfury" data-mdb-smooth-scroll="smooth-scroll"
+                    data-mdb-offset="30">Bitfury</a></li>
+                <li><a class="dropdown-item" href="#bitshopper" data-mdb-smooth-scroll="smooth-scroll"
+                    data-mdb-offset="30">Bitshopper</a></li>
+                <li><a class="dropdown-item" href="#blackarrow" data-mdb-smooth-scroll="smooth-scroll"
+                    data-mdb-offset="30">Black Arrow</a></li>
+                <li><a class="dropdown-item" href="#co21" data-mdb-smooth-scroll="smooth-scroll"
+                    data-mdb-offset="30">21.co</a></li>
+                <li><a class="dropdown-item" href="#kncminer" data-mdb-smooth-scroll="smooth-scroll"
+                    data-mdb-offset="30">KnCMiner</a></li>
+                <li><a class="dropdown-item" href="#blockerupter" data-mdb-smooth-scroll="smooth-scroll"
+                    data-mdb-offset="30">Block Erupter</a></li>
+                <li><a class="dropdown-item" href="#gaw" data-mdb-smooth-scroll="smooth-scroll"
+                    data-mdb-offset="30">GAW</a></li>
+              </ul>
+            </div>
+
+          </div>
+
+          <!-- Back to top button -->
+          <button type="button" class="btn btn-warning btn-floating btn-lg" id="btn-back-to-top"
+            style="background-color: #f7931b;">
+            <i class="fas fa-arrow-up"></i>
+          </button>
+          <!-- Bitmain-->
+          <div id="bitmain" data-mdb-toggle="animation" data-mdb-animation-start="onLoad"
+            data-mdb-animation="slide-in-up" data-mdb-animation-delay="300">
+            <h2 class="text-white pt-5 p-4 display-6"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">Bitmain Miners</h2>
+            <div class="lightbox">
+              <div class="row justify-content-center gap-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/17.png" alt="Bitmain S19" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S19</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> May 2020<br><strong>Hash Rate:</strong>
+                          95TH/s<br><strong>Wattage:</strong> 3250w<br><strong>Rarity:</strong> <span
+                            style="color: green;">Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/21.png" alt="Bitmain S17" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S17</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> April 2019<br><strong>Hash Rate:</strong>
+                          53TH/s<br><strong>Wattage:</strong> 2385w<br><strong>Rarity:</strong> <span
+                            style="color: green;">Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/22.png" alt="Bitmain S15" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S15</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> December 2018<br><strong>Hash Rate:</strong>
+                          28TH/s<br><strong>Wattage:</strong> 1596w<br><strong>Rarity:</strong> <span
+                            style="color: green;">Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/24.png" alt="Bitmain T15" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain T15</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> April 2019<br><strong>Hash Rate:</strong>
+                          23TH/s<br><strong>Wattage:</strong> 1541w<br><strong>Rarity:</strong> <span
+                            style="color: green;">Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/s11.png" alt="Bitmain S11" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S11</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> November 2018<br><strong>Hash Rate:</strong>
+                          20.50TH/s<br><strong>Wattage:</strong> 1530w<br><strong>Rarity:</strong><span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/23.png" alt="Bitmain S9E" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S9SE</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> July 2019<br><strong>Hash Rate:</strong>
+                          16TH/s<br><strong>Wattage:</strong> 1280w<br><strong>Rarity:</strong> <span
+                            style="color: green;">Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/32.png" alt="Bitmain S9K" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S9K</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> August 2019<br><strong>Hash Rate:</strong>
+                          13.5TH/s<br><strong>Wattage:</strong> 1310w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/34.png" alt="Bitmain S9J" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S9J</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> August 2019<br><strong>Hash Rate:</strong>
+                          14.5TH/s<br><strong>Wattage:</strong> 1350w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/35.png" alt="Bitmain S9I" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S9I</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> May 2018<br><strong>Hash Rate:</strong>
+                          14TH/s<br><strong>Wattage:</strong> 1280w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/37.png" alt="Bitmain S9 Hydro" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S9 Hydro</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> August 2018<br><strong>Hash Rate:</strong>
+                          18TH/s<br><strong>Wattage:</strong> 1728w<br><strong>Rarity:</strong> <span
+                            style="color:#C68135"> Semi-Rare </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/38.png" alt="Bitmain S9" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S9</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> July 2017<br><strong>Hash Rate:</strong>
+                          13TH/s<br><strong>Wattage:</strong> 1432w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/36.png" alt="Bitmain T9+" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain T9+</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> Janurary 2018<br><strong>Hash Rate:</strong>
+                          10.5TH/s<br><strong>Wattage:</strong> 1432w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/t9.png" alt="Bitmain T9" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain T9</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> August 2017<br><strong>Hash Rate:</strong>
+                          12.5TH/s<br><strong>Wattage:</strong> 1576w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/v9.png" alt="Bitmain V9" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain V9</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> March 2018<br><strong>Hash Rate:</strong>
+                          4TH/s<br><strong>Wattage:</strong> 1027w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/72.png" alt="Bitmain S7-F1" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S7-F1</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> 2016<br><strong>Hash Rate:</strong>
+                          4.73TH/s<br><strong>Wattage:</strong> 1293<br><strong>Rarity:</strong> <span
+                            style="color:#C68135"> Semi-Rare </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/25.png" alt="Bitmain S7-Silent" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S7-Silent</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> June 2016<br><strong>Hash Rate:</strong>
+                          2.7TH/s<br><strong>Wattage:</strong> 697w<br><strong>Rarity:</strong> <span
+                            style="color:#C68135"> Semi-Rare </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/40.png" alt="Bitmain S7" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S7</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> September 2015<br><strong>Hash Rate:</strong>
+                          4.7TH/s<br><strong>Wattage:</strong> 1293w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/72.png" alt="Bitmain S5_F7 (S9 Prototype)"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S5_F7 (S9 Prototype)</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> 2016<br><strong>Hash Rate:</strong>
+                          13TH/s<br><strong>Wattage:</strong> 1432w<br><strong>Rarity:</strong> <span
+                            style="color: red;"> Extremely Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/28.png" alt="Bitmain C1-Water Cooled"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain C1-Water Cooled</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> September 2014<br><strong>Hash Rate:</strong>
+                          1TH/s<br><strong>Wattage:</strong> 820w<br><strong>Rarity:</strong> <span style="color: red;">
+                            Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/31.png" alt="Bitmain R4 Space-Heat"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain R4 Space-Heat</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> Feburary 2017<br><strong>Hash Rate:</strong>
+                          8.7TH/s<br><strong>Wattage:</strong> 845w<br><strong>Rarity:</strong> <span
+                            style="color:#C68135"> Semi-Rare </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/57.png" alt="Bitmain R1-BTC Router"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain R1-BTC Router</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> April 2016<br><strong>Hash Rate:</strong>
+                          1.29MH/s<br><strong>Wattage:</strong> 3.9w<br><strong>Rarity:</strong> <span
+                            style="color:#C68135"> Semi-Rare </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/27.png" alt="Bitmain S5" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S5</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> December 2014<br><strong>Hash Rate:</strong>
+                          1.2TH/s<br><strong>Wattage:</strong> 590w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/18.png" alt="Bitmain S4" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S4</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> September 2014<br><strong>Hash Rate:</strong>
+                          2TH/s<br><strong>Wattage:</strong> 1380w<br><strong>Rarity:</strong> <span
+                            style="color:#C68135"> Semi-Rare </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/29.png" alt="Bitmain S3+" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S3+</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> 2014<br><strong>Hash Rate:</strong>
+                          478GH/s<br><strong>Wattage:</strong> 366w<br><strong>Rarity:</strong> <span
+                            style="color:#C68135"> Semi-Rare </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/30.png" alt="Bitmain S3" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S3</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> June 2014<br><strong>Hash Rate:</strong>
+                          453GH/s<br><strong>Wattage:</strong> 3250w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/78.png" alt="Bitmain S2" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S2</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> April 2014<br><strong>Hash Rate:</strong>
+                          1TH/s<br><strong>Wattage:</strong> 1100w<br><strong>Rarity:</strong> <span
+                            style="color: red;"> Very Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/33.png" alt="Bitmain S1+" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S1+</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> December 2013<br><strong>Hash Rate:</strong>
+                          220GH/s<br><strong>Wattage:</strong> 400w<br><strong>Rarity:</strong> <span
+                            style="color: red;"> Very Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/26.png" alt="Bitmain S1" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain S1</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> November 2013<br><strong>Hash Rate:</strong>
+                          180GH/s<br><strong>Wattage:</strong> 360w<br><strong>Rarity:</strong><span
+                            style="color:#C68135"> Semi-Rare </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/41.png" alt="Bitmain U3" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain U3</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> March 2014<br><strong>Hash Rate:</strong>
+                          60GH/s<br><strong>Wattage:</strong> 55w<br><strong>Rarity:</strong> <span
+                            style="color:#C68135"> Semi-Rare </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/48.png" alt="Bitmain U2" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain U2</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> Janurary 2014<br><strong>Hash Rate:</strong>
+                          2.5GH/s<br><strong>Wattage:</strong> 2w<br><strong>Rarity:</strong> <span
+                            style="color:#C68135"> Semi-Rare </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/46.png" alt="Bitmain U2" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain U2</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> Janurary 2014<br><strong>Hash Rate:</strong>
+                          2.5GH/s<br><strong>Wattage:</strong> 2w<br><strong>Rarity:</strong> <span
+                            style="color:#C68135"> Semi-Rare </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/43.png" alt="Bitmain U1" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain U1</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> Janurary 2014<br><strong>Hash Rate:</strong>
+                          1.6GH/s<br><strong>Wattage:</strong> 2w<br><strong>Rarity:</strong> <span
+                            style="color:#C68135"> Semi-Rare </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitmain/61.png" alt="Bitmain U1" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitmain U1</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> Janurary 2014<br><strong>Hash Rate:</strong>
+                          1.6GH/s<br><strong>Wattage:</strong> 2w<br><strong>Rarity:</strong> <span
+                            style="color:#C68135"> Semi-Rare </span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--MicroBT-->
+          <div id="microbt" data-mdb-toggle="animation" data-mdb-animation-start="onScroll"
+            data-mdb-animation="slide-in-up" data-mdb-animation-delay="300">
+            <h2 class="text-white pt-5 p-4 display-6"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">MicroBT Whatsminer Miners
+            </h2>
+            <div class="lightbox">
+              <div class="row justify-content-center gap-3">
+                <!-- M30s <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="./img/miners/bitmain/17.png"
+                    alt="Bitmain S19"
+                    class="img-fluid rounded-start"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Bitmain S19</h5>
+                    <p class="card-text">
+                      <strong>Released:</strong> May 2020<br><strong>Hash Rate:</strong> 95TH/s<br><strong>Wattage:</strong> 3250w<br><strong>Rarity:</strong> <span style="color: green;"> Common</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/microbt/71.png" alt="Whatsminer M21s" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Whatsminer M21s</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> June 2019<br><strong>Hash Rate:</strong>
+                          56TH/s<br><strong>Wattage:</strong> 3360w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/microbt/10.png" alt="Whatsminer M10" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Whatsminer M10</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> September 2018<br><strong>Hash Rate:</strong>
+                          33TH/s<br><strong>Wattage:</strong> 2150w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/microbt/3.png" alt="Whatsminer M3 V2.2" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Whatsminer M3 V2.2</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> March 2018<br><strong>Hash Rate:</strong>
+                          13TH/s<br><strong>Wattage:</strong> 2200w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/microbt/2.png" alt="Whatsminer M3 V1.2" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Whatsminer M3 V1.2</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> Janurary 2018<br><strong>Hash Rate:</strong>
+                          12TH/s<br><strong>Wattage:</strong> 2200w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/microbt/11.png" alt="Whatsminer M1" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Whatsminer M1</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> March 2018<br><strong>Hash Rate:</strong>
+                          12TH/s<br><strong>Wattage:</strong> 2000w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!--Avalon-->
+          <div id="avalon" data-mdb-toggle="animation" data-mdb-animation-start="onScroll"
+            data-mdb-animation="slide-in-up" data-mdb-animation-delay="300">
+            <h2 class="text-white pt-5 p-4 display-6"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">Avalon Miners</h2>
+            <div class="lightbox">
+              <div class="row justify-content-center gap-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/avalon/4.png" alt="Avalon 1041" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Avalon 1041</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> July 2019<br><strong>Hash Rate:</strong>
+                          31TH/s<br><strong>Wattage:</strong> 1736w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Avalon 841 <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="./img/miners/avalon/"
+                      alt="Avalon 841"
+                      class="img-fluid rounded-start"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Avalon 841</h5>
+                      <p class="card-text">
+                        <strong>Released:</strong> April 2018<br><strong>Hash Rate:</strong> 13.6TH/s<br><strong>Wattage:</strong> 1290w<br><strong>Rarity:</strong> <span style="color: green;"> Common</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>-->
+                <!--Avalon 821 <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="./img/miners/avalon/"
+                      alt="Avalon 821"
+                      class="img-fluid rounded-start"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Avalon 821</h5>
+                      <p class="card-text">
+                        <strong>Released:</strong> Feburary 2018<br><strong>Hash Rate:</strong> 11.5TH/s<br><strong>Wattage:</strong> 1200w<br><strong>Rarity:</strong> <span style="color: green;"> Common</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>-->
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/avalon/1.png" alt="Avalon 741" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Avalon 741</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> April 2017<br><strong>Hash Rate:</strong>
+                          7.3TH/s<br><strong>Wattage:</strong> 1150w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/avalon/7.png" alt="Avalon 721" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Avalon 721</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> April 2017<br><strong>Hash Rate:</strong>
+                          6TH/s<br><strong>Wattage:</strong> 900w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/avalon/5.png" alt="Avalon 6" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Avalon 6</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> Janurary 2016<br><strong>Hash Rate:</strong>
+                          3.5TH/s<br><strong>Wattage:</strong> 1050w<br><strong>Rarity:</strong> <span
+                            style="color: green;"> Common</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/avalon/9.png" alt="Avalon 2" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Avalon 2</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> June 2013<br><strong>Hash Rate:</strong>
+                          105GH/s<br><strong>Wattage:</strong> 1020w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Gridseed-->
+          <div id="gridseed" data-mdb-toggle="animation" data-mdb-animation-start="onScroll"
+            data-mdb-animation="slide-in-up" data-mdb-animation-delay="300">
+            <h2 class="text-white pt-5 p-4 display-6"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">Gridseed</h2>
+            <div class="lightbox">
+              <div class="row justify-content-center gap-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/gridseed/49.png" alt="Gridseed DualMiner"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Gridseed DualMiner</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> July 2016<br><strong>Hash Rate:</strong> 2GH/s SHA256 /
+                          Scrypt<br><strong>Wattage:</strong> 1.5w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Very Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/gridseed/54.png" alt="Gridseed Blade (Scrypt)"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Gridseed Blade</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> June 2014<br><strong>Hash Rate:</strong>
+                          6MH/s Scrypt<br><strong>Wattage:</strong> 100w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/gridseed/52.png" alt="Gridseed Orbit" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Gridseed Orbit</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> June 2014<br><strong>Hash Rate:</strong> 8MH/s SHA256 / 330KH/s
+                          Scrypt<br><strong>Wattage:</strong> 60w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/gridseed/58.png" alt="Gridseed Orbit" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Gridseed Orbit</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> June 2014<br><strong>Hash Rate:</strong> 8MH/s SHA256 / 330KH/s
+                          Scrypt<br><strong>Wattage:</strong> 60w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/gridseed/59.png" alt="Gridseed Orbit" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Gridseed Orbit</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> June 2014<br><strong>Hash Rate:</strong> 8MH/s SHA256 / 330KH/s
+                          Scrypt<br><strong>Wattage:</strong> 60w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Spondooli-->
+          <div id="spondoolies" data-mdb-toggle="animation" data-mdb-animation-start="onScroll"
+            data-mdb-animation="slide-in-up" data-mdb-animation-delay="300">
+            <h2 class="text-white pt-5 p-4 display-6"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">Spondoolies-Tech</h2>
+            <div class="lightbox">
+              <div class="row justify-content-center gap-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/spondooli/74.png" alt="Spondoolies-Tech SP35"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Spondoolies-Tech SP35</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> September 2014<br><strong>Hash Rate:</strong>
+                          5.5TH/s<br><strong>Wattage:</strong> 3650w<br><strong>Rarity:</strong> <span
+                            style="color: red;">Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/spondooli/73.png" alt="Spondoolies-Tech SP30"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Spondoolies-Tech SP30</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> September 2014<br><strong>Hash Rate:</strong>
+                          4.9TH/s<br><strong>Wattage:</strong> 3000w<br><strong>Rarity:</strong> <span
+                            style="color: red;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/spondooli/75.png" alt="Spondoolies-Tech SP20"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Spondoolies-Tech SP20</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> September 2014<br><strong>Hash Rate:</strong>
+                          1.7TH/s<br><strong>Wattage:</strong> 1100w<br><strong>Rarity:</strong> <span
+                            style="color: red;"> Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/spondooli/76.png" alt="Spondoolies-Tech SP20"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Spondoolies-Tech SP10</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> March 2014<br><strong>Hash Rate:</strong>
+                          1.4TH/s<br><strong>Wattage:</strong> 1250w<br><strong>Rarity:</strong> <span
+                            style="color: red;"> Very Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Butterfly Labs-->
+          <div id="butteryflylabs" data-mdb-toggle="animation" data-mdb-animation-start="onScroll"
+            data-mdb-animation="slide-in-up" data-mdb-animation-delay="300">
+            <h2 class="text-white pt-5 p-4 display-6"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">Butterfly Labs</h2>
+            <div class="lightbox">
+              <div class="row justify-content-center gap-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/butterfly-labs/8.png" alt="Butterfly Labs Little Single"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Butterfly Labs Little Single</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> April 2014<br><strong>Hash Rate:</strong>
+                          25GH/s<br><strong>Wattage:</strong> 150w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/butterfly-labs/8.png" alt="Butterfly Labs Little Single"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Butterfly Labs Little Single</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> April 2014<br><strong>Hash Rate:</strong>
+                          30GH/s<br><strong>Wattage:</strong> 180w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/butterfly-labs/8.png" alt="Butterfly Labs Little Single"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Butterfly Labs Little Single</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> April 2014<br><strong>Hash Rate:</strong>
+                          50GH/s<br><strong>Wattage:</strong> 250w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/butterfly-labs/55.png" alt="Butterfly Labs Japapeno"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Butterfly Labs Japapeno</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> April 2013<br><strong>Hash Rate:</strong>
+                          5GH/s<br><strong>Wattage:</strong> 30w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Dragonmint-->
+          <div id="dragonmint" data-mdb-toggle="animation" data-mdb-animation-start="onScroll"
+            data-mdb-animation="slide-in-up" data-mdb-animation-delay="300">
+            <h2 class="text-white pt-5 p-4 display-6"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">Dragonmint</h2>
+            <div class="lightbox">
+              <div class="row justify-content-center gap-3">
+                <div class="row justify-content-center gap-3">
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="./img/miners/dragonmint/13.png" alt="Dragonmint B29"
+                          class="img-fluid rounded-start" />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Dragonmint B29</h5>
+                          <p class="card-text">
+                            <strong>Released:</strong> April 2018<br><strong>Hash Rate:</strong>
+                            2.1TH/s<br><strong>Wattage:</strong> 900w<br><strong>Rarity:</strong> <span
+                              style="color: green;"> Common</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="./img/miners/dragonmint/b52.png" alt="Dragonmint B52"
+                          class="img-fluid rounded-start" />
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Dragonmint B52</h5>
+                          <p class="card-text">
+                            <strong>Released:</strong> April 2018<br><strong>Hash Rate:</strong>
+                            3.83TH/s<br><strong>Wattage:</strong> 1380<br><strong>Rarity:</strong> <span
+                              style="color: green;"> Common</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Dragonmint BT1 <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="./img/miners/dragonmint/"
+                    alt="21.co Bitcoin Computer"
+                    class="img-fluid rounded-start"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Dragonmint B52</h5>
+                    <p class="card-text">
+                      <strong>Released:</strong> September 2015<br><strong>Hash Rate:</strong> 50GH/s<br><strong>Wattage:</strong> 15w<br><strong>Rarity:</strong> <span style="color: #C68135;"> Semi-Rare</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div> -->
+              </div>
+            </div>
+          </div>
+          <!--Rockminer-->
+          <div id="rockminer" data-mdb-toggle="animation" data-mdb-animation-start="onScroll"
+            data-mdb-animation="slide-in-up" data-mdb-animation-delay="300">
+            <h2 class="text-white pt-5 p-4 display-6"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">RockMiner</h2>
+            <div class="lightbox">
+              <div class="row justify-content-center gap-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/rockminer/56.png" alt="RockMiner USB Miner U10"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">RockMiner USB Miner U10</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> June 2018<br><strong>Hash Rate:</strong>
+                          15GH/s<br><strong>Wattage:</strong> 5w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/rockminer/68.png" alt="RockMiner R-Box" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">RockMiner R-Box</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> May 2014<br><strong>Hash Rate:</strong>
+                          37GH/s<br><strong>Wattage:</strong> 50w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Zeus-->
+          <div id="zeus" data-mdb-toggle="animation" data-mdb-animation-start="onScroll"
+            data-mdb-animation="slide-in-up" data-mdb-animation-delay="300">
+            <h2 class="text-white pt-5 p-4 display-6"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">Zeus</h2>
+            <div class="lightbox">
+              <div class="row justify-content-center gap-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/zeus/20.png" alt="Zeus Thunder X3 (Scrypt)"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Zeus Thunder X3</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> July 2014<br><strong>Hash Rate:</strong>
+                          32MH/s Scrypt<br><strong>Wattage:</strong> 920w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/zeus/z2.png" alt="Zeus Thunder X2" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Zeus Thunder X2</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> July 2014<br><strong>Hash Rate:</strong>
+                          22MH/s Scrypt<br><strong>Wattage:</strong> 690w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Bitgretiefter-->
+          <div class="row">
+            <div class="col">
+
+            </div>
+          </div>
+          <div id="bitgretiefter" data-mdb-toggle="animation" data-mdb-animation-start="onScroll"
+            data-mdb-animation="slide-in-up" data-mdb-animation-delay="300">
+            <h2 class="text-white pt-5 p-4 display-6"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">Bitgretiefter</h2>
+            <div class="lightbox">
+              <div class="row justify-content-center gap-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitgretiefter/15.png" alt="Bitgretiefter Yellowjacket"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitgretiefter Yellowjacket</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> Janurary 2014<br><strong>Hash Rate:</strong>
+                          2.2GH/s<br><strong>Wattage:</strong> 2w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Bitfury-->
+          <div id="bitfury" data-mdb-toggle="animation" data-mdb-animation-start="onScroll"
+            data-mdb-animation="slide-in-up" data-mdb-animation-delay="300">
+            <h2 class="text-white pt-5 p-4 display-6"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">Bitfury</h2>
+            <div class="lightbox">
+              <div class="row justify-content-center gap-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitfury/12.png" alt="Bitfury BF1" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitfury BF1</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> September 2013<br><strong>Hash Rate:</strong>
+                          2.5GH/s<br><strong>Wattage:</strong> 2w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Bitshopper-->
+          <div id="bitshopper" data-mdb-toggle="animation" data-mdb-animation-start="onScroll"
+            data-mdb-animation="slide-in-up" data-mdb-animation-delay="300">
+            <h2 class="text-white pt-5 p-4 display-6"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">Bitshopper</h2>
+            <div class="lightbox">
+              <div class="row justify-content-center gap-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/bitshopper/45.png" alt="Bitshopper Nanofury II"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Bitshopper Nanofury II</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> June 2014<br><strong>Hash Rate:</strong>
+                          5GH/s<br><strong>Wattage:</strong> 5w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Black Arrow-->
+          <div id="blackarrow" data-mdb-toggle="animation" data-mdb-animation-start="onScroll"
+            data-mdb-animation="slide-in-up" data-mdb-animation-delay="300">
+            <h2 class="text-white pt-5 p-4 display-6"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">Black Arrow</h2>
+            <div class="lightbox">
+              <div class="row justify-content-center gap-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/blackarrow/60.png" alt="Black Arrow Prospero X1"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Black Arrow Prospero X1</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> 2014<br><strong>Hash Rate:</strong>
+                          100GH/s<br><strong>Wattage:</strong> 100w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--21co-->
+          <div id="co21" data-mdb-toggle="animation" data-mdb-animation-start="onScroll"
+            data-mdb-animation="slide-in-up" data-mdb-animation-delay="300">
+            <h2 class="text-white pt-5 p-4 display-6"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">21.co</h2>
+            <div class="lightbox">
+              <div class="row justify-content-center gap-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/21co/66.png" alt="21.co Bitcoin Computer"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">21.co Bitcoin Computer</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> September 2015<br><strong>Hash Rate:</strong>
+                          50GH/s<br><strong>Wattage:</strong> 15w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--KnCMiner-->
+          <div id="kncminer" data-mdb-toggle="animation" data-mdb-animation-start="onScroll"
+            data-mdb-animation="slide-in-up" data-mdb-animation-delay="300">
+            <h2 class="text-white pt-5 p-4 display-6"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">KnCMiner</h2>
+            <div class="lightbox">
+              <div class="row justify-content-center gap-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/kncminer/63.png" alt="KnCMiner Neptune" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">KnCMiner Neptune</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> 2014<br><strong>Hash Rate:</strong>
+                          3TH/s<br><strong>Wattage:</strong> 2100w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Block Erupter-->
+          <div id="blockerupter" data-mdb-toggle="animation" data-mdb-animation-start="onScroll"
+            data-mdb-animation="slide-in-up" data-mdb-animation-delay="300">
+            <h2 class="text-white pt-5 p-4 display-6"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">Block Erupter</h2>
+            <div class="lightbox">
+              <div class="row justify-content-center gap-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/blockerupter/62.png" alt="Block Erupter Cube"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Block Erupter Cube</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> December 2013<br><strong>Hash Rate:</strong>
+                          30GH/s<br><strong>Wattage:</strong> 200w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Gaw-->
+          <div id="gaw" data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation="slide-in-up"
+            data-mdb-animation-delay="300">
+            <h2 class="text-white pt-5 p-4 display-6"
+              style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;">GAW Miners</h2>
+            <div class="lightbox">
+              <div class="row justify-content-center gap-3">
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="./img/miners/gawminers/16.png" alt="GAW Miners The Falcon (Scrypt)"
+                        class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">GAW Miners The Falcon</h5>
+                        <p class="card-text">
+                          <strong>Released:</strong> September 2014<br><strong>Hash Rate:</strong>
+                          27MH/s Scrypt<br><strong>Wattage:</strong> 900w<br><strong>Rarity:</strong> <span
+                            style="color: #C68135;"> Semi-Rare</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="container-fluid bg-dark" data-mdb-toggle="animation" data-mdb-animation-start="onScroll"
+      data-mdb-animation-show-on-load="false" data-mdb-animation="slide-in-up"
+      style="font-family: 'Bebas Neue', 'Roboto', sans-serif;letter-spacing: 2px;font-size: 18px;">
+      <div class="row">
+        <footer class="py-3 my-1">
+          <ul class="nav justify-content-center pb-3 mb-3" style="letter-spacing: 3px;">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="index.html#about" class="nav-link px-2 text-muted">About</a></li>
+            <li class="nav-item"><a href="advisors.html" class="nav-link px-2 text-muted">Advisors</a></li>
+            <li class="nav-item"><a href="gallery.html" class="nav-link px-2" style="color: #f7931b;">Gallery</a></li>
+            <li class="nav-item"><a href="index.html#fun-facts" class="nav-link px-2 text-muted">Fun Facts</a></li>
+            <!-- <li class="nav-item">
+              <a class="nav-link text-muted" href="donations.html">donate</a>
+            </li> -->
+            <li class="nav-item"><a href="https://t.me/thecoindad" class="nav-link px-2 text-muted">Contact</a></li>
+          </ul>
+          <p class="text-center"> <a href="index.html"><img src="./img/logo-full.png" alt="bitcoin mining museum"></a>
+          </p>
+          <ul class="nav justify-content-center mb-3">
+
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link text-muted" href="https://t.me/thecoindad">
+                <i class="fab fa-telegram"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link text-muted" href="https://twitter.com/TheCoinDad">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+          <p class="text-center text-muted">&copy 2022 <a style="color:#f7931b"
+              href="https://twitter.com/TheCoinDad">TheCoinDad</a></p>
+          <p class="text-center text-muted mb-5"> Website Created By <a style="color:#f7931b"
+              href="https://t.me/webdevpleb">WebDevPleb</a></p>
+        </footer>
+      </div>
+    </div>
+  </main>
+  <!-- End your project here-->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript" src="js/custom.js"></script>
+
+
+</body>
+
+</html>

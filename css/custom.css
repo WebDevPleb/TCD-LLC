@@ -1,0 +1,56 @@
+
+   .card {
+    transition: .3s;
+   }
+   .card:hover{
+    transform: scale(1.10);
+   }
+
+   .navbar-brand {
+    transition: .3s;
+   }
+   
+   .navbar-brand:hover{
+    transform: scale(1.12);
+   }
+
+   .nav-item{
+    transition: .3s;
+   }
+
+   .nav-item:hover{
+    transform: scale(1.12);
+    color: white;
+   }
+
+   #btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    display: none;
+  }
+
+  .pulsate {
+    -webkit-animation: pulsate 1.5s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.6;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.6;
+    }
+}
+
+a.anchor{
+    display: block; position: relative; top: -50px; visibility: hidden;
+}
+
+body {
+    background-color: #C68135;
+}
